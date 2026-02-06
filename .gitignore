@@ -1,0 +1,42 @@
+# Python
+# System & Runtime
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+venv/
+.env
+
+# Large Media & Artifacts
+input/
+output/
+submission/
+*.pt
+*.onnx
+
+# Allow demo folder for deliverables
+!demo/
+
+# Internal Documentation
+docs/private/
+master_setup.md
+plans/
+rules/
+proj_details/
+*.py[cod]
+venv/
+.env
+
+# Project Specific
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
